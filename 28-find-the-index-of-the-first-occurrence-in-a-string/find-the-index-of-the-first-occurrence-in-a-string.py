@@ -5,5 +5,4 @@ class Solution(object):
         :type needle: str
         :rtype: int
         """
-        res=haystack.find(needle)
-        return res
+        return haystack.find(needle)
