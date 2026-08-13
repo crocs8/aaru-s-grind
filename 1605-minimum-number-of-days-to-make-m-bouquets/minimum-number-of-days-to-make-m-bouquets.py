@@ -20,7 +20,7 @@ class Solution:
         if m * k > len(bloomDay):
             return -1
 
-        start = 0
+        start = min(bloomDay)
         end = max(bloomDay)
         minDays = -1
 
